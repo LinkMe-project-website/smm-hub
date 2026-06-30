@@ -27,3 +27,4 @@ jobs:
         run: |
           npx supabase@latest secrets set GROQ_API_KEY="$GROQ_API_KEY" --project-ref "$PROJECT_REF"
           npx supabase@latest functions deploy groq-ai --project-ref "$PROJECT_REF"
+
